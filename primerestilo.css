@@ -1,0 +1,18 @@
+p {
+    color:chocolate; 
+    text-align: justify;
+}
+h1 {
+    color: royalblue; 
+    text-align: center;
+}
+h2{
+    background-color:burlywood;
+}
+#articulo1{
+    background-color: rosybrown;
+}
+.centradorojo {
+    text-align: center;
+    color: blue;
+}
