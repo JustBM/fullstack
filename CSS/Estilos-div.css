@@ -1,0 +1,29 @@
+* {
+    text-align: justify;
+}
+#green{
+    color:green;
+    text-align: left;
+}
+div{
+    color:red;
+    font-style: oblique; 
+    font-weight: bold;
+    text-align: center;
+}
+.col-sm-4{
+    font-size: small;
+    color: blueviolet;
+}
+#green-and-lighter {
+    font-weight: lighter;
+    color: gold;
+    text-align: center;
+    }
+.centrar {
+    text-align: center;
+    }
+.red {
+    color: red;
+    }
+

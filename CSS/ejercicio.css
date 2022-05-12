@@ -1,0 +1,17 @@
+/* 3 clases: 
+1- afecta al primer div
+2- afecta al segundo div
+3- cambia el color, fondo, propiedades extra
+4- h2 llama a 2 clases, el parraf 2 llama a dos clases diferentes */
+
+.clase1 {
+    text-align: center;
+}
+.clase2 {
+    font-weight: bold;
+}
+.clase3 {
+    color: chocolate;
+    background-color: beige;
+    font-size: small;
+}
