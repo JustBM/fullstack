@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+
+/* div {
+    box-sizing: border-box;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid darkblue;
+    background-color: rgb(76, 135, 245);
+    text-align: center;
+}
+nav {
+    box-sizing: content-box;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid rgb(99, 99, 104);
+    background-color: rgb(187, 206, 243);
+    text-align: left;
+}   */

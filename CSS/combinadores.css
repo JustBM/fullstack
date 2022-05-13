@@ -1,0 +1,18 @@
+h2~p {
+    color: aquamarine;
+}
+h2+p {
+    color: red;
+}
+p+p {
+    color:blue;
+}
+p {
+    color: greenyellow;
+}
+div>p {
+    color: maroon;
+}
+div h3 {
+    color:purple;
+}

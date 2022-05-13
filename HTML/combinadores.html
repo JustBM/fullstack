@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/combinadores.css">
+</head>
+<body>
+    <!-- Tipos de selectores de combinación:
+    1. Selector adyacente elemento1 + elemento2
+    El primer elemento se toma como referencia y el segundo el que toma el estilo -->
+    <h1>TITULO</h1>
+    <p>Este deberia salir en verde porque no esta adyacente del h2, ni directo ni general</p>
+    <h2>Prueba de selectores combinados</h2>
+    <p>Rojo por estar justo despues de un h2</p>
+    <p>azul por estar tras un parrafo </p>
+    <p>También azul por estar adyacente a otro parrafo, saltandose la primera orden ya que este esta posterior a la adyacente general de ~. </p>
+    <h3>Segundo titular</h3>
+    <p>El color no será el estipulado para el parrafo directamente porque no es adyacente directo de h2 pero si esta posterior a este como indica la primera combinación del CSS</p>
+    <div><h2>Prueba de selectores combinados2</h2>
+        <p>Estos serán de color marron porque </p>
+        <p>es descendiente del div </p>
+        <span>
+            <p>Este no debería de salir porque esta entre span</p>
+        </span>
+    </div>
+    <div>
+        <h3> Debería de salir de color purpura </h3>
+        <p>Este al estar dentro de un div debería de salir marron</p>
+        <h3>Debería volver a salir purpura por herencia general</h3>
+    </div>
+</body>
+</html>
