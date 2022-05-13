@@ -4,25 +4,19 @@
 body{
     margin: 0;
 }
-
-
-/* div {
-    box-sizing: border-box;
-    margin-top: -20px;
-    margin-bottom: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 5px solid darkblue;
-    background-color: rgb(76, 135, 245);
-    text-align: center;
+.main-header {
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+    width: 100%;
 }
-nav {
-    box-sizing: content-box;
-    margin-top: -20px;
-    margin-bottom: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 5px solid rgb(99, 99, 104);
-    background-color: rgb(187, 206, 243);
-    text-align: left;
-}   */
+.main-nav_item {
+    display: inline-block;
+}
+.main-nav {
+    display:inline-block
+}
+.main-header > div {
+    display: inline-block;
+    text-decoration: dashed
+}
+/* Con esto hemos puesto tanto el logo, nombre y el nav en la misma linea de cabecera */
