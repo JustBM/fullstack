@@ -1,0 +1,24 @@
+p.indent {
+    text-indent: 70px;
+    text-align: justify;
+}
+.middle>*{
+    vertical-align:middle;
+}
+.top>*{
+    vertical-align:top;
+}
+.bottom>*{
+    vertical-align:bottom;
+}
+h2{
+    display:inline-block; 
+    margin:0;
+    width: 150px; 
+    text-align:right;
+    font:bold20pxSans-Serif;
+}
+div{
+    margin:0030px0; 
+    padding:10px;
+}

@@ -1,0 +1,32 @@
+h2 {
+    font-family: 'Zen Loop', cursive;
+    font-size: 2em;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+h1 {
+    text-align: center;
+}
+.word-spa {
+    word-spacing: 10px;
+}
+.text-sha {
+    text-shadow: 3px 2px 5px blue;
+}
+.font-fam {
+font-family: fantasy;
+}
+.font-sty {
+font-style: italic;
+}
+.font-siz {
+    font-size: 1.50em;
+}
+.font-wei {
+    font-weight:bolder;
+}
+.font-var {
+    font-variant: small-caps;
+}
