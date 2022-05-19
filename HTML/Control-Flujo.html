@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de flujo</title>
+    <script src="../JS/Control-flujo.js"></script>
+</head>
+<body>
+    <h1>Control de Flujo JS</h1>
+    <h2>Ejercicio 2 pg 167</h2>
+        <script>
+            let a = 5;
+            let b = 4;
+            let c = 2;
+            let d = 8;
+            let e = a + b; //Suma1=a+b;
+            let f = c + d; //Suma2=c+d;
+            if (e > f){
+                document.write("a+b=" + e + " es mayor que c+d=" + f);
+            }// else if (e == f){
+            //     document.write("a+b es igual que c+d");
+            // } 
+            else{
+                document.write("a+b=" + e + " es menor que c+d=" + f);
+            }
+        </script>
+    <h2>Ejercicio 2.1</h2>
+        <script>
+            let hora = 10 ;
+            if((hora > 9) && (hora <= 14)){
+                document.write("Deberíamos estar en Sant Boi");
+            } else if ((hora > 15) && (hora <= 20)){
+                document.write("Deberíamos estar en Castelldefels");
+            } else {
+                document.write("No tenemos clase");
+            }
+        </script>
+    <h2>Ejercicio 3 pg 168</h2>
+        <script>
+            let angulo1 = 40 , angulo2 = 40 , angulo3 = 90;
+            let triangulo = angulo1 + angulo2 + angulo3;
+            if (triangulo == 180) {
+                document.write ("La figura puede ser un triángulo");
+            } else {
+                document.write ("Estos ángulos no puede constituir un triángulo");
+            }
+        </script>
+    <h2>Ejercicio 4 pg 168</h2>
+        <script>
+            let z = 6;
+            let rest = z % 2; 
+            if (rest == 0) {
+                document.write ("El número es par");
+            } else {
+                document.write ("El número es impar");
+            }
+        </script>
+    <h2>Ejercicio 5 pg 168</h2>
+        <script>
+            let x= 24; y= 2; w= 15;
+            if(( x > y) && (x > w)) {
+                document.write ("El número mayor es X: " + x );
+            } else if ((y > x) && (y > w)){
+                document.write ("El número mayor es Y: " + y);
+            } else if ((w > x) && (w > y)){
+                document.write ("El número mayor es W: " + w);
+            } else {
+                document.write ("Hay numeros iguales en el conjunto.");
+            }
+            
+        </script>
+</body>
+</html>
