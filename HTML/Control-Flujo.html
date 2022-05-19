@@ -8,9 +8,9 @@
     <script src="../JS/Control-flujo.js"></script>
 </head>
 <body>
-    <h1>Control de Flujo JS</h1>
-    <h2>Ejercicio 2 pg 167</h2>
-        <script>
+    <h1>Control de Flujo "IF" </h1>
+            <h3>Ejercicio 2 pg 167</h3>
+                <script>
             let a = 5;
             let b = 4;
             let c = 2;
@@ -25,9 +25,9 @@
             else{
                 document.write("a+b=" + e + " es menor que c+d=" + f);
             }
-        </script>
-    <h2>Ejercicio 2.1</h2>
-        <script>
+                </script>
+            <h3>Ejercicio 2.1</h3>
+                <script>
             let hora = 10 ;
             if((hora > 9) && (hora <= 14)){
                 document.write("Deberíamos estar en Sant Boi");
@@ -36,9 +36,9 @@
             } else {
                 document.write("No tenemos clase");
             }
-        </script>
-    <h2>Ejercicio 3 pg 168</h2>
-        <script>
+                </script>
+            <h3>Ejercicio 3 pg 168</h3>
+                <script>
             let angulo1 = 40 , angulo2 = 40 , angulo3 = 90;
             let triangulo = angulo1 + angulo2 + angulo3;
             if (triangulo == 180) {
@@ -46,9 +46,9 @@
             } else {
                 document.write ("Estos ángulos no puede constituir un triángulo");
             }
-        </script>
-    <h2>Ejercicio 4 pg 168</h2>
-        <script>
+                </script>
+            <h3>Ejercicio 4 pg 168</h3>
+                <script>
             let z = 6;
             let rest = z % 2; 
             if (rest == 0) {
@@ -56,9 +56,9 @@
             } else {
                 document.write ("El número es impar");
             }
-        </script>
-    <h2>Ejercicio 5 pg 168</h2>
-        <script>
+                </script>
+            <h3>Ejercicio 5 pg 168</h3>
+                <script>
             let x= 24; y= 2; w= 15;
             if(( x > y) && (x > w)) {
                 document.write ("El número mayor es X: " + x );
@@ -70,6 +70,65 @@
                 document.write ("Hay numeros iguales en el conjunto.");
             }
             
+                </script>
+
+    <h1>Control de Flujo "Switch"</h1>
+        <script>
+            let k = 4;
+            switch (k) {
+                case 1:
+                    document.write("El valor de K es 1");
+                    break;
+                case 2:
+                    document.write("El valor de K es 2");
+                    break;
+                case 3:
+                    document.write("El valor de K es 3");
+                    break;
+                case 4:
+                    document.write("El valor de K es 4");
+                    break;
+                default:
+                    document.write("El valor de K es desconocido");
+            }
         </script>
+    <h1>Control de Flujo "Bucles"</h1>
+        <h2>Bucles For</h2>
+            <script>
+                for (let i = 1; i <= 50; i++) {
+                document.write(i + " ");
+                }
+            </script>
+            <br>
+            <script>
+                const array = ['En', 'un', 'lugar', 'de', 'la', 'mancha'];
+                const len = array.length;
+                for (let i = 0; i < len; i++) {
+                    document.write(array[i] + " ");
+                }
+            </script>
+            <h3>Ejercicio 9 pg 171</h3>
+                <script>
+                    for (let m = 0; m <= 10; m++){
+                        document.write("5x" + m + "=" + 5*m + "<br>");
+                    }
+                </script>
+            <h3>Ejercicio 10 pg 171</h3>
+                <script>
+                    const Nomb = prompt("Escriba aquí","Escribe aqui");
+                    for (let s = 1; s < 11; s++){
+                        document.write(s + " "+ Nomb + " " );
+                    }
+                </script>
+            <h3>Ejercicio 11 pg 171</h3>
+                <script>    
+                    for (let i= prompt ("Escribe tu número favorito", "Número"); i >= 0; i--){
+                        if (i==0){
+                            document.write(i);
+                        } else{
+                        document.write(i + ", ");
+                        }
+                    }
+                </script>
 </body>
 </html>
