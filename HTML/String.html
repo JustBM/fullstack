@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+    <script src="../JS/string.js"></script>
+</head>
+<body>
+    <h1>String!</h1>
+        <p>Son cadenas de texto.</p>
+
+        <h2>Ejercicio 1 y 2 pg 204:</h2>
+        <script>
+            const a= new String(`"Hola"`);
+            const b= new String(`"Adios"`);
+            document.write(a + "-" + b + "<br>");
+            
+            if (a.charAt(1) == b.charAt(1)) {
+                document.write("Empiezan por la misma letra");     
+            } else{
+                document.write("Empiezan con letras distintas");
+            }
+        </script>
+        <br>
+        <script>
+            const c= new String(`"Gorras de colores"`);
+            let fin1=c.length-1;
+            const d= new String(`"Gatos cazadores de ratas"`);
+            let fin2=d.length-1;
+            document.write(c + "-" + d + "<br>" + fin1 + " " + fin2 + "<br>");
+            if ((c.charAt(1) == d.charAt(1)) && (c.charAt(fin1) == d.charAt(fin2))) {
+                document.write("Empiezan y terminan por la misma letra");     
+            } else{
+                document.write("Empiezan y terminan con letras distintas");
+            }
+        </script>
+</body>
+</html>
