@@ -12,29 +12,55 @@
         <p>Son cadenas de texto.</p>
 
         <h2>Ejercicio 1 y 2 pg 204:</h2>
-        <script>
-            const a= new String(`"Hola"`);
-            const b= new String(`"Adios"`);
-            document.write(a + "-" + b + "<br>");
-            
-            if (a.charAt(1) == b.charAt(1)) {
-                document.write("Empiezan por la misma letra");     
-            } else{
-                document.write("Empiezan con letras distintas");
-            }
-        </script>
-        <br>
-        <script>
-            const c= new String(`"Gorras de colores"`);
-            let fin1=c.length-1;
-            const d= new String(`"Gatos cazadores de ratas"`);
-            let fin2=d.length-1;
-            document.write(c + "-" + d + "<br>" + fin1 + " " + fin2 + "<br>");
-            if ((c.charAt(1) == d.charAt(1)) && (c.charAt(fin1) == d.charAt(fin2))) {
-                document.write("Empiezan y terminan por la misma letra");     
-            } else{
-                document.write("Empiezan y terminan con letras distintas");
-            }
-        </script>
+            <script>
+                const a= new String(`"Hola"`);
+                const b= new String(`"Adios"`);
+                document.write(a + "-" + b + "<br>");
+
+                if (a.charAt(1) == b.charAt(1)) {
+                    document.write("Empiezan por la misma letra");     
+                } else{
+                    document.write("Empiezan con letras distintas");
+                }
+            </script>
+            <br>
+            <script>
+                const c= new String(`"Gorras de colores"`);
+                let fin1=c.length-1;
+                const d= new String(`"Gatos cazadores de ratas"`);
+                let fin2=d.length-1;
+                document.write(c + "-" + d + "<br>" + fin1 + " " + fin2 + "<br>");
+                if ((c.charAt(1) == d.charAt(1)) && (c.charAt(fin1) == d.charAt(fin2))) {
+                    document.write("Empiezan y terminan por la misma letra");     
+                } else{
+                    document.write("Empiezan y terminan con letras distintas");
+                }
+            </script>
+        <h2>Ejercicio 3 y 4 pg 204</h2>
+            <script>
+                let ejercicio3 = "abc Soñaremos por la noche abc cuando durmamos abc";
+                let existeABC = ejercicio3.indexOf("abc"); //cumple que existe del 0 al 14 pero repasemos donde
+                if ((existeABC != -1) && (existeABC != 0) && (existeABC != ejercicio3.length-3)){
+                    document.write("Existe ABC dentro del string");
+                } else { 
+                    document.write("Existe al principio o al final");
+                }
+            </script>
+            <br>
+            <script>
+                let stringPos="Hola buenas";
+                let pos=3;
+                if ((stringPos.charAt(pos) == stringPos.charAt(pos-2)) || (stringPos.charAt(pos) == stringPos.charAt(pos+1))) {
+                    document.write("La letra anterior o posterior es igual");
+                } else {
+                    document.write("No son iguales las letras anterior ni posterior");
+                }
+            </script>
+        <h2>Ejercicio 7 pg 204</h2>
+         <script>
+             let J="Hola buenas";
+             J = J.slice(0,-1);
+             document.write (J);
+         </script>
 </body>
 </html>
