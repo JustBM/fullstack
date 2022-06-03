@@ -1,0 +1,49 @@
+a:link, a:visited,  a:hover, a:active
+{
+    color: #311bad;
+    text-decoration: none;
+}
+/* Quita el estilo de los enlaces */
+#Encabezado {
+        background-color: burlywood;
+        display: inline-block;
+        /* padding: 5px 14px; Comrpobar el padding  */
+        width: calc(100%);
+    }
+#Encabe{
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align:middle;
+}
+#encabezado1{
+    display: inline-block;
+    color: rgb(91, 91, 207); 
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 22px;
+    vertical-align:middle;
+}
+
+#Index-Ej{
+    display: inline-block
+}
+#Nav{
+    display: inline-block;
+    
+}
+#item-nav{
+    text-align: center;
+    display: inline-block;
+    background-color: grey;
+    width: calc(100%);
+    vertical-align:middle;
+    font-size: 18px;
+    color:#0e4f1f;
+}
+body{
+    margin:0;
+}
+/* #par_titu{
+    text-align: right;
+    color: black
+} */
