@@ -2,20 +2,20 @@
 // cliente, mensaje y transferencia.
 
 const gest1 = {
-    gestor:'BBVA',
-    cliente:'María',
-    Mensaje:'Para comprar el pan',
-    Transferencia:'500€'
+    gestor:'Jedis',
+    cliente:'Obi Juan',
+    mensaje:'Para comprar el pan',
+    transferencia:'500€'
 };
 const gest2 = {
-    gestor:'La Caixa',
-    cliente:'Hernesto',
-    Mensaje:'Hipoteca',
-    Transferencia:'1000€'
+    gestor:'Siths',
+    cliente:'Darth Vader',
+    mensaje:'Hipoteca',
+    transferencia:'1000€'
 };
 const gest3 = {
-    gestor:'ING',
-    cliente:'Rosa',
-    Mensaje:'Gym enero',
-    Transferencia:'40€'
+    gestor:'Consulado',
+    cliente:'Grogu',
+    mensaje:'Gym enero',
+    transferencia:'40€'
 };

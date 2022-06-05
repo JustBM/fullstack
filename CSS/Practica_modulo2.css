@@ -1,14 +1,15 @@
 a:link, a:visited,  a:hover, a:active
 {
-    color: #311bad;
+    color: rgb(45, 158, 22);
     text-decoration: none;
 }
 /* Quita el estilo de los enlaces */
 #Encabezado {
-        background-color: burlywood;
+        background-color: rgba(236, 186, 120, 0.582);
         display: inline-block;
         /* padding: 5px 14px; Comrpobar el padding  */
         width: calc(100%);
+        border-bottom-style: dashed;
     }
 #Encabe{
     box-sizing: border-box;
@@ -17,7 +18,7 @@ a:link, a:visited,  a:hover, a:active
 }
 #encabezado1{
     display: inline-block;
-    color: rgb(91, 91, 207); 
+    color: rgb(45, 158, 22); 
     text-decoration: none;
     font-weight: bold; 
     font-size: 22px;
@@ -34,16 +35,67 @@ a:link, a:visited,  a:hover, a:active
 #item-nav{
     text-align: center;
     display: inline-block;
-    background-color: grey;
+    background-color: rgba(110, 89, 89);
     width: calc(100%);
     vertical-align:middle;
     font-size: 18px;
     color:#0e4f1f;
+    border-bottom-style: dashed;
 }
 body{
     margin:0;
+    background-image: url("../IMG/fondo\ 2.jpg");
 }
+
+#section1{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    align-items:center;
+}
+#parraf{
+    display: flex;
+    width: 75%;
+}
+ #img{
+    display:flex;
+ }
 /* #par_titu{
     text-align: right;
     color: black
 } */
+
+#box {
+    justify-content:space-around;
+    align-items:center;
+    display: flex;
+    margin:2px;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-top-color: rgba(110, 89, 89);
+    border-bottom-color: rgba(110, 89, 89);
+    background-color: rgba(110, 89, 89, 0.30);
+    
+}
+
+.one{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 2px rgb(45, 158, 22) solid;
+    background-color:rgb(45, 158, 22, 0.30);
+}
+.two{
+    display: flex;
+    margin:10px;
+    padding: 10px;
+    border: 2px rgb(45, 158, 22) solid;
+    background-color:rgb(45, 158, 22, 0.30);
+}
+.three{
+    display: flex;
+    margin:10px;
+    padding: 10px;
+    border: 2px rgb(45, 158, 22) solid;
+    background-color:rgb(45, 158, 22, 0.30);
+}
