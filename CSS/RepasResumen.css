@@ -2,3 +2,8 @@ div{
     color:blue;
     text-align: justify;
 }
+#div {
+    border: 2px solid red;
+    width: 300px;
+    display: inline-block;
+}
