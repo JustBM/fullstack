@@ -68,11 +68,19 @@ console.log(JsonClie);
 console.log(JsonMens);
 console.log(JsonTrans);
 
-// Pasar de JSON a ARRAYs:
-
 // Programa que haga uso del servicio web del banco y realice una petición con AJAX:
+setTimeout(() => {
+    console.log('http://localhost:8085/ok');
+    }, 3000);
 
 //Función en JS que obtenga todos los gestores de forma periódica cada 5  segundos:
+const tama=ArrayGest.length;
+let p=0;
+
+setInterval(() => {
+    console.log(ArrayGest[p]); p++
+    }, 5000);
+
 
 //Migra el código a una aplicación TypeScript:
 
